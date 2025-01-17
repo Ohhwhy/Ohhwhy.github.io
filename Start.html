@@ -8,7 +8,7 @@
   </head>
   <body>
     <div id="valentineQuestion"><b>Will you be my valentine?</b></div>
-    <button class="answerButton" onclick="location.href='thankyou.html'">
+    <button class="answerButton" onclick="location.href='gracias.html'">
       Yes
     </button>
     <button class="answerButton" id="noButton">No noo quiero :(</button>
@@ -20,7 +20,7 @@
       .getElementById("noButton")
       .addEventListener("click", function () {
         var yesButton = document.querySelector(
-          'button[onclick*="thankyou.html"]'
+          'button[onclick*="gracias.html"]'
           );
         var currentFontSize = parseInt(
           window.getComputedStyle(yesButton).fontSize
