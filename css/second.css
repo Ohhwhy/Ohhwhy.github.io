@@ -1,37 +1,42 @@
 body {
+  margin: 0;
+  height: 100vh;
+  display: flex;
+  justify-content: center; 
+  align-items: center; 
+  text-align: center; 
+  font-family: Arial, sans-serif;
+}
+
+.content-wrapper {
+  display: flex;
+  flex-direction: column; 
+  justify-content: center;
+  align-items: center;
   text-align: center;
-  margin-top: 30px;
-  font-family: "courier";
-  background-color: #db5856;
-  color: #ff9494;
+  gap: 20px; 
 }
-#gracias {
-  font-size: 50px;
-  margin-bottom: 20px;
+
+.responsives {
+  max-width: 100%;
+  height: auto;
 }
-.yay {
-  margin-bottom:10px;
-}
+
 .button {
-  padding: 10px 20px
-  font-size: 18px
+  padding: 10px 20px;
+  font-size: 16px;
   cursor: pointer;
-  margin: 10px;
-  font-family: "courier";
-  margin-bottom: 20px;
-  background-color: #ffe3e1;
-  color: #e67373;
-  border-radius: 12px;
-  border: 2px solid #ff9494;
-  box-shadow: 1px 1px 2px #ff9494;
-  transition:0.3s;
+  background-color: #4CAF50;
+  color: white;
+  border: none;
+  border-radius: 5px;
 }
 
 .button:hover {
-  background-color: #ff9494;
-  color: #ffe3e1;
-  border: 2px solid #ff9494;
-  bpx-sahdow: 1px 1px 2px #ffe3e1;
+  background-color: #45a049;
 }
-  
-  
+
+#gracias {
+  font-size: 2rem;
+  font-weight: bold;
+}
