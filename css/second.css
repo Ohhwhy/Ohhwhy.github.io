@@ -1,5 +1,5 @@
 body {
-  margin: 0;
+  margin-top: 30px;
   height: 100vh;
   display: flex;
   justify-content: center; 
@@ -37,6 +37,6 @@ body {
 }
 
 #gracias {
-  font-size: 2rem;
+  font-size: 50px;
   font-weight: bold;
 }
