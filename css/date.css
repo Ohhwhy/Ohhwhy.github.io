@@ -21,7 +21,7 @@ form .header {
 
 .form-group {
   display: flex;
-  flex-directio: column;
+  flex-direction: column;
   justify-content: center;
   font-size: 25px;
 }
@@ -42,7 +42,7 @@ form .header {
 
 .button:hover {
   background-color: #ff9494;
-  color: #ffe3e1
+  color: #ffe3e1;
   border: 2px solid #ff9494;
 }
 
@@ -54,9 +54,9 @@ input[type="date"] {
   font-family: "courier";
   margin-bottom: 10px;
   background-color: #ffe3e1;
-  color: #e67373
+  color: #e67373;
   border-radius: 12px;
-  border: 2px solid #ffe3e1
+  border: 2px solid #ffe3e1;
 }
 
   
