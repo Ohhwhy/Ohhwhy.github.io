@@ -9,9 +9,8 @@ body {
 }
 
 img {
-  height: 480px;
-  width: auto;
-  padding: 10px;
+  max-width: 100%;
+  height: auto;
 }
 
 h1 {
