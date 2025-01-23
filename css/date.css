@@ -6,7 +6,7 @@ body {
   height: 100vh;
   background-color: #db5856;
   color: #ff9494;
-  font-family: "Courier", monospace;
+  font-family: "Courier", monospace;  
 }
 
 img {
@@ -39,9 +39,7 @@ form .header {
   padding: 6px 10px;
   font-size: 15px;
   cursor: pointer;
-  margin: 10px 0;
-  font-family: "Courier", monospace;
-  margin-bottom: 10px;
+  margin: 10px 0; 
   background-color: #ffe3e1;
   color: #e67373;
   border-radius: 12px;
@@ -59,14 +57,9 @@ input[type="date"] {
   padding: 6px 10px;
   font-size: 15px;
   cursor: pointer;
-  margin: 10px 0;
-  font-family: "Courier", monospace;
-  margin-bottom: 10px;
+  margin: 10px 0;  
   background-color: #ffe3e1;
   color: #e67373;
   border-radius: 12px;
   border: 2px solid #ffe3e1;
 }
-
-  
-  
