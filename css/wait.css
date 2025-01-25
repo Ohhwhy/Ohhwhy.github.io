@@ -1,23 +1,26 @@
 body {
   text-align: center;
   margin-top: 50px;
-  font-family: "Courier";
-  baclground-color: #db5856;
-  color: #ff9494
+  font-family: "Courier", monospace;
+  background-color: #db5856;
+  color: #ff9494;
 }
-#ohhhohhhwaitttt... {
+
+#waittt {
   font-size: 100px;
   margin-bottom: 20px;
 }
+
 .yay {
-  margin-bottom: 10 px;
+  margin-bottom: 10px;
 }
+
 .button {
   padding: 10px 20px;
   font-size: 18px;
   cursor: pointer;
   margin: 10px;
-  font-family: "courier";
+  font-family: "Courier", monospace;
   margin-bottom: 20px;
   background-color: #ffe3e1;
   color: #e67373;
@@ -25,4 +28,10 @@ body {
   border: 2px solid #ffe3e1;
   box-shadow: 1px 1px 2px #ff9494;
   transition: 0.3s;
+}
+
+.button:hover {
+  background-color: #ff9494;
+  color: #ffe3e1;
+  box-shadow: 2px 2px 5px #e67373;
 }
